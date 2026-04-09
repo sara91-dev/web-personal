@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col bg-gray-300">
         {/* NAVBAR */}
-        <nav className="flex justify-center mt-3 my-1.5">
+        <nav className="flex justify-center mt-3 my-1.5 mb-20">
             <p className="hidden lg:block absolute left-0 ml-12 py-2">ao</p>
-            <ul className="flex flex-nowrap justify-center p-4 sm:py-1.5 bg-white rounded-md xl:gap-x-30 lg:gap-x-24 md:gap-x-16 sm:gap-x-12 gap-x-6 w-full xl:max-w-5xl lg:max-w-4xl md:max-w-2xl sm:max-w-xl max-w-lg tracking-wider mx-4">
+            <ul className="flex flex-nowrap justify-center p-4 sm:py-1.5 bg-white rounded-md xl:gap-x-30 lg:gap-x-24 md:gap-x-16 sm:gap-x-12 gap-x-6 w-full xl:max-w-5xl lg:max-w-4xl md:max-w-2xl sm:max-w-xl max-w-lg tracking-wider mx-4 text-sm">
                 
                 <li className="relative group hover:text-gray-300 text-gray-400 hidden sm:flex items-center cursor-pointer">
                     <span className="flex items-center">
@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
                         <FiChevronDown className="ml-2" />
                     </span>
                     
-                    <div className="absolute top-full -left-2 mt-2 hidden group-hover:flex flex-col min-2-[160px] z-50">
+                    <div className="absolute top-full -left-1 mt-2 hidden group-hover:flex flex-col min-2-[160px] z-50">
                         <a href="/" className="px-3 py-2 text-white">
                             jejejej
                         </a>
@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
                         <FiChevronDown className="ml-2" />
                     </span>
                     
-                    <div className="absolute top-full -left-2 mt-2 hidden group-hover:flex flex-col min-2-[160px] z-50">
+                    <div className="absolute top-full -left-1 mt-2 hidden group-hover:flex flex-col min-2-[160px] z-50">
                         <a href="/" className="px-3 py-2 text-white">
                             jejejej
                         </a>

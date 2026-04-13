@@ -12,7 +12,7 @@ export default function Home() {
             <p className="mt-1.5 text-sm xl:text-base">saddassdsads gjffg jfjgf sbsb irer fedsf</p>
             <p className="mt-1.5 text-sm xl:text-base">saddassdsads gjffg jfjgf sbsb irer dfsf fdssd</p>
             <button className="mt-4 bg-white px-6 py-1 text-sm rounded-lg hover:animate-pulse cursor-pointer text-gray-700">
-            aasfjf
+                <a href="/">aasfjf</a>
             </button>
         </div>
       </main>
